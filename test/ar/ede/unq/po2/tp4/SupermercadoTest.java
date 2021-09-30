@@ -1,9 +1,11 @@
 package ar.ede.unq.po2.tp4;
 
 import org.junit.jupiter.api.BeforeEach;
+
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
 
 public class SupermercadoTest {
 	
@@ -11,7 +13,7 @@ public class SupermercadoTest {
 	private Producto detergente;
 	private Supermercado supermercado;
 	
-	@BeforeEach
+	@BeforeEach																																		
 	public void setUp() {
 		arroz = new Producto("Arroz", 18.9d, true);
 		detergente = new Producto("Detergente", 75d);
