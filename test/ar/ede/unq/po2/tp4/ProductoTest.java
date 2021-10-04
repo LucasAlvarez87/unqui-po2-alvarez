@@ -22,7 +22,6 @@ public class ProductoTest {
 		assertEquals(new Double(18.9), arroz.getPrecio());
 		assertTrue(arroz.esPrecioCuidado());
 		
-		
 		assertEquals("Vino", vino.getNombre());
 		assertEquals(new Double(55), vino.getPrecio());
 		assertFalse(vino.esPrecioCuidado());

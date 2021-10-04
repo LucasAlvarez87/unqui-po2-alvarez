@@ -4,13 +4,17 @@ public class Producto {
 
 
 	protected String nombre;
-	protected double precio;
+	protected  double precio;
 	protected boolean esPrecioCuidado;
 	
 	public Producto(String nombre, double precio, boolean booleano) {
 		this.nombre = nombre;
 		this.precio = precio;
 		this.esPrecioCuidado = booleano;
+	}
+
+	public boolean esPrecioCuidado() {
+		return esPrecioCuidado;
 	}
 
 	public String getNombre() {
@@ -22,15 +26,11 @@ public class Producto {
 	}
 
 	public double getPrecio() {
-		return precio;
+		return this.precio;
 	}
 
 	public void setPrecio(double precio) {
 		this.precio = precio;
-	}
-
-	public boolean esPrecioCuidado() {
-		return esPrecioCuidado;
 	}
 
 	public Producto(String nombre, double precio) {
